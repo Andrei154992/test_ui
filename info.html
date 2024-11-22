@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Джонни</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"crossorigin="anonymous">
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50" style="background-color: rgb(0, 247, 255); position: relative;">
+  
+  <nav id="nv_1" class="navbar bg-dark navbar-dark fixed-top">
+    <div class="container-fluid">           
+        <ul class="nav nav-pills">
+          <a class="navbar-brand" data toggle="tab" href="">ДЖОННИ ДЕПП</a>          
+          <li class="nav-item">
+              <a class="nav-link" data toggle="tab" href="info.html">Актёр</a>
+          </li>
+          <li class="nav-item">
+              <a id="link" class="nav-link" href="film.html">Фильмы</a> 
+              <script>
+                const nav = document.getElementById("link");
+                nav.addEventListener("click", ()=>{
+                  alert("Эта страница находится в процессе разработки");  
+                });
+              </script>            
+          </li>            
+      </ul>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#thetarget">
+        <span class="navbar-toggler-icon"></span>
+      </button>  
+      <div id="thetarget" class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+              <a class="nav-link" data toggle="tab" href="#demo">Фотографии</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" data toggle="tab" href="#c_1">Лучшие фильмы</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#c_2">Биография</a>
+          </li>                 
+        </ul>
+      </div>           
+    </div>    
+  </nav>
+
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      </div>
+              
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/image_1.jpg" alt="" class="d-block" style="width:100%">
+        </div>
+        <div class="carousel-item">
+          <img src="images/images_2.jpg" alt="" class="d-block" style="width:100%">
+        </div>
+        <div class="carousel-item">
+          <img src="images/images_3.jpg" alt="" class="d-block" style="width:100%">
+          </div>  
+        </div>
+      </div>
+    </div>
+
+    <div id="c_1" class="container_1">      
+        <div class="card">
+            <img src="images/pirats.jpg" alt="" class="card-image-top" style="width:100%">
+            <div class="card-body">
+                <h4 class="card-title">Пираты Карибского моря: Проклятие Черной жемчужины (2003)</h4>
+                <p class="card-text">Жизнь харизматичного авантюриста, капитана Джека Воробья, полная увлекательных приключений, резко меняется, когда его заклятый враг капитан Барбосса похищает корабль Джека Черную Жемчужину, а затем нападает на Порт Ройал и крадет прекрасную дочь губернатора Элизабет Свонн.</p>
+            </div>
+            <a class="btn btn-primary" href="https://www.kinopoisk.ru/film/4374/"target="_blank"rel="noopener noopener">Смотреть на Кинопоиск</a>
+        </div>
+        <div class="card">
+          <img src="images/killing.jpg" alt="" class="card-image-top" style="width:100%">
+          <div class="card-body">
+              <h4 class="card-title">Убийство в Восточном экспрессе (2017)</h4>
+              <p class="card-text">Путешествие на одном из самых роскошных поездов Европы неожиданно превращается в одну из самых стильных и захватывающих загадок в истории. Фильм рассказывает историю тринадцати пассажиров поезда, каждый из которых находится под подозрением. И только сыщик должен как можно быстрее разгадать головоломку, прежде чем преступник нанесет новый удар.</p>
+          </div>
+          <a class="btn btn-primary" href="https://www.kinopoisk.ru/film/817969/"target="_blank"rel="noopener noopener">Смотреть на Кинопоиск</a>
+        </div> 
+        <div class="card">
+          <img src="images/sleeping.jpg" alt="" class="card-image-top" style="width:100%">
+          <div class="card-body">
+              <h4 class="card-title">Сонная Лощина (1999)</h4>
+              <p class="card-text">Нью-Йорк, 1799 год. Молодого констебля Икабода Крэйна отправляют расследовать загадочные убийства в местечко Сонная Лощина. Все жертвы погибли от меча всадника без головы — они обезглавлены, а головы исчезли. Крэйну приходится убедиться, что это не легенда, а страшная правда.</p>
+          </div>
+          <a class="btn btn-primary" href="https://www.kinopoisk.ru/film/5622/"target="_blank"rel="noopener noopener">Смотреть на Кинопоиск</a>
+        </div> 
+        <div class="card">
+          <img src="images/factory.jpg" alt="" class="card-image-top" style="width:100%">
+          <div class="card-body">
+              <h4 class="card-title">Чарли и шоколадная фабрика (2005)</h4>
+              <p class="card-text">Какие чудеса ждут вас на фабрике Вилли Вонки? Только представьте: травяные луга из сладкого мятного сахара в Шоколадной Комнате ... Можно проплыть по Шоколадной реке на розовой сахарной лодке ... Или поставить эксперименты в Комнате изобретений с леденцами, которые никогда не тают ...</p>
+          </div>
+          <a class="btn btn-primary" href="https://www.kinopoisk.ru/film/38905/"target="_blank"rel="noopener noopener">Смотреть на Кинопоиск</a>
+      </div>     
+    </div>
+
+    <div id="c_2">    
+        <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demos" style="margin-left: 50px; margin-bottom: 10px;">
+            Краткая информация об актёре
+        </button>    
+        <div id="demos" class="show">
+          <div class="container_2">
+                        
+              Джонни Депп — американский актёр, кинорежиссёр, музыкант, сценарист и продюсер. <br>
+  
+              Родился 9 июня 1963 года в Оуэнсборо, штат Кентукки. 13 Имеет индейские, ирландские и немецкие корни. <br>
+              
+              Дебютировал в фильме «Кошмар на улице Вязов» (1984), сыграв бойфренда главной героини. Мировую славу ему принесла роль капитана Джека Воробья в первой части саги «Пираты Карибского моря: Проклятие Чёрной жемчужины» (2003). <br>
+              
+              Всего на его счету порядка 100 ролей в фильмах и сериалах. В 1997 году он выступил в качестве режиссёра, сняв фильм «Храбрец». <br>
+              
+              Джонни Депп является обладателем и номинантом многочисленных кинонаград и премий, в том числе премии «Золотой глобус» и премии Гильдии киноактёров США. <br>
+              
+              В 2012 году попал в «Книгу рекордов Гиннеса» как самый высокооплачиваемый актёр, который за один год заработал 75 миллионов долларов. 
+            
+          </div>
+        </div>        
+    </div>
+</body>
+</html>

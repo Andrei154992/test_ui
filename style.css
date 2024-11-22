@@ -1,0 +1,55 @@
+.container_1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 27px;
+    margin-right: 27px;
+}
+.container_2{
+
+    margin-bottom: 50px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    height: auto;
+}
+.first {
+
+    font-size: 20px; 
+    background-color: rgb(190, 123, 252); 
+    margin-top: 0px; 
+    margin-right: 20px;
+    text-align: center;
+    padding: 20px;
+    height: 60px;
+    width: auto;
+    border-radius: 10px
+
+}
+.btn_1{
+
+    font-size: 20px; 
+    background-color: rgb(190, 123, 252); 
+    margin-top: 0px; 
+    margin-left: 50px;
+    margin-right: 20px;
+    text-align: center;
+    padding: 20px;
+    height: 60px;
+    width: auto;
+    border-radius: 10px
+}
+
+.card-body{
+    width: 400px;
+    height: 320px;
+}
+
