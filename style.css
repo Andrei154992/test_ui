@@ -48,8 +48,16 @@
     border-radius: 10px
 }
 
+.card{
+    
+    margin: 10px;
+}
 .card-body{
     width: 400px;
     height: 320px;
+}
+h4{
+    text-align: center;
+    height: 90px;
 }
 
